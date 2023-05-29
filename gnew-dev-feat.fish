@@ -1,4 +1,4 @@
-function gnew-feat --description 'create new feature branch'
+function gnew-dev-feat --description 'create new feature branch from develop'
   git checkout develop
   git pull origin develop
   git checkout -b feature/$argv
